@@ -5,7 +5,7 @@ import { Outlet, Link } from 'react-router-dom';
 
 function Navbar() {
 
-   const [isActive, setIsActive] = useState('false');
+   const [isActive, setIsActive] = useState('true');
 
    const toggleActiveClass = () => {
       setIsActive(!isActive);

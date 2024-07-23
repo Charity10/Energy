@@ -10,7 +10,7 @@ export const Training = () =>
     <h1 className='training-title'>Upcoming Trainings</h1>
     <img className='training-img' src={training} alt='Vehicle and generator training'></img>
 
-    <p className='venue'> Venue: Center for Energy Research and Development, OAU</p>
+    <p className='venue'> Venue: Centre for Energy Research and Development, OAU</p>
 
     <p className='date'> Date: 27th - 30th November, 2023 || 4th - 7th December 2023</p>
 
