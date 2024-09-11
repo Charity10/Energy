@@ -1,24 +1,15 @@
-import Home from './routes/Home/Home';
-import { Route, Routes } from 'react-router-dom';
-import { About } from './components/About/About';
-import Navbar from './components/Navbar/Navbar';
-import { Data } from './routes/Data/Data'
-import { Training } from './routes/Training/Training';
+import Hero from './component/Hero'
+import About from './component/About'
+import Services from './component/Services'
 
-
-
-function App() {
-  
+const App = () => {
   return (
-    <Routes>
-      <Route path='/' element={<Navbar/>} >
-         <Route index element={<Home />} />  
-         <Route path='about' element={<About />} />
-         <Route path='data' element={<Data/>}/>
-         <Route path='training' element={<Training/>}/>
-      </Route>
-      
-    </Routes>
+    <div>
+      <Hero />
+      <About />
+      <Services />
+
+    </div>
   )
 }
 
