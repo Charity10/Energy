@@ -9,7 +9,6 @@
 }
 
 .offer-box img {
-  border-radius: 100%;
   width: 25%;
 }
 
@@ -38,7 +37,6 @@
   }
   
   .offer-box img {
-    border-radius: 100%;
     width: 40%;
   }
   

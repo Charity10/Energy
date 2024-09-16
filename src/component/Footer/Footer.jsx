@@ -3,11 +3,6 @@ import { FaInstagram } from "react-icons/fa6";
 import { BsTwitterX } from "react-icons/bs";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import { FaRegCopyright } from "react-icons/fa";
-
-
-
-
 
 
 const Footer = () => {

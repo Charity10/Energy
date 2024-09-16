@@ -26,7 +26,7 @@ const Services = () => {
 
       <OfferBox image={offer4} bigText='Energy Imports and Exports' smallText='Volume and value of energy imports and exports will be presented to assess Nigeria’s dependence on external sources or its role as an energy exporter.' />
 
-      <OfferBox image={offer5} bigText='Energy Prices' smallText='Historical price data for various fuels or electricity tariffs are tracked to understand market dynamics and assess the affordability of different types of energy for consumers.' />
+      <OfferBox image={offer1} bigText='Energy Prices' smallText='Historical price data for various fuels or electricity tariffs are tracked to understand market dynamics and assess the affordability of different types of energy for consumers.' />
 
       <OfferBox image={offer6} bigText='Environmental Impact' smallText='This will help in monitoring progress towards environmental goals and identifying areas for improvement.' />
 
