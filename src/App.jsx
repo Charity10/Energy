@@ -1,6 +1,7 @@
-import Hero from './component/Hero'
-import About from './component/About'
-import Services from './component/Services'
+import Hero from './component/Hero/Hero'
+import About from './component/About/About'
+import Services from './component/Services/Services'
+import Footer from './component/Footer/Footer'
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
       <Hero />
       <About />
       <Services />
+      <Footer/>
 
     </div>
   )

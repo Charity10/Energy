@@ -4,8 +4,7 @@
 }
 
 .about-img{
-  display: block;
-  width: 100%;
+  /* display: block; */
   position: relative;
   padding: 50px;
 }
@@ -20,34 +19,28 @@
   border-radius: 30px 70px 50px 100px;
   background-color: #7dd321d3;
   z-index: -1;
+  box-sizing: border-box;
   }
-
-.about-img::after{
-  content: "50";
-  color: #fff;
-  text-align: center;
-  font-size: 5rem;
-  font-weight: bold;
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  background-color: #7dd321f0;
-  z-index: 1;
-  top: 200px;
-  left: 420px;
-  border-radius: 10px;
-}
 .abt-image{
-  width: 80%;
+  display: block;
+  max-width: auto;
 }
 
 .about-us{
-  max-width: auto;
+  max-width: 50%;
 }
 
 .progress-bars{
   display: flex;
   gap: 50px;
+  
+}
+
+@media only screen and (max-width: 1024px) {
+  .about-img::after {
+    display: none;
+  }
+
 }
 
 @media screen and (max-width: 768px){

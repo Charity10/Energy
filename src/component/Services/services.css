@@ -1,0 +1,17 @@
+.services{
+  margin-top: 5rem;
+}
+
+.offer-prop{
+  /* display: grid; */
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+@media all and (max-width: 768px){
+  .offer-prop{
+    flex-direction: column; 
+  }
+}

@@ -18,7 +18,6 @@ const Close = <MdClose className="HamburgerMenu" size="30px" color="#7ed321" onC
   return (
     <nav className='MobileNavigation'>
       <div className="logo">
-        <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST-7XYANx1UcrzOqwTQR5gl5WXdqR2YXVR9g&s' alt='app-logo' className='nav-img' />
         <h1 className='h1'>E~D~B~N</h1>
       </div>
       { click ? Close : Hamburger}

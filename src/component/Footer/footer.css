@@ -1,0 +1,37 @@
+.footer {
+  background-color: #8abb21;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  padding: 20px;
+  padding-bottom: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.footer h1{
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.footer ul {
+  display: flex;
+  gap: 20px;
+}
+.footer ul li :hover {
+   padding: 5px;
+   font-size: 1.2rem;
+}
+.socials {
+  display: flex;
+  gap: 20px;
+}
+
+.socials a:hover {
+  font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 768px){
+  .footer p {
+    text-align: center;
+  }
+}

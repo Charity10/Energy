@@ -1,6 +1,6 @@
-import heroImage from '../assets/images/hero-img.png'
+import heroImage from '../../assets/images/hero-img.png'
 import './hero.css'
-import Navbar from './Navbar/Navbar';
+import Navbar from '../Navbar/Navbar';
 
 const Hero = () => {
   return (

@@ -1,0 +1,53 @@
+.offer-box{
+  max-width: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  margin: 0 auto;
+  width: 30%;
+  height: 100%;
+}
+
+.offer-box img {
+  border-radius: 100%;
+  width: 25%;
+}
+
+.offer-box h3 {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.offer-box p {
+  font-size: 12px;
+}
+
+.offer-box:hover {
+  box-shadow: 20px 20px 20px rgb(234, 233, 233);
+}
+
+@media all and (max-width: 768px){
+  .offer-box{
+    max-width: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    margin: 0 auto;
+    width: auto;
+    height: 100%;
+  }
+  
+  .offer-box img {
+    border-radius: 100%;
+    width: 40%;
+  }
+  
+  .offer-box h3 {
+    font-size: 20px;
+  }
+  
+  .offer-box p {
+    font-size: 16px;
+  }
+  
+}

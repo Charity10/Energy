@@ -1,18 +1,18 @@
 import './about.css'
-import aboutImg from '../assets/images/petroleum.jpg'
-import Progress from '../Progress'
-import Text from '../Text'
+import aboutImg from '../../assets/images/petroleum.jpg'
+import Progress from '../../Props/Progress/Progress'
+import Text from '../../Props/Text/Text'
 
 const About = () => {
   return (
     <div className='about'>
       <div className="about-img">
         {/* <div className='img-shape'></div> */}
-         <img className='abt-image' src={aboutImg} alt='about-img' />
+         <img className='abt-image' src={aboutImg} alt='abot-img' />
       </div>
       <div className="about-us">
         <Text greenText='About us' blackText='What&apos;s Our Resource Story' />
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis vitae sunt reiciendis cumque tempore nostrum, beatae architecto dolor minus maiores qui quo error assumenda labore nam! Quod consequuntur voluptatem beatae? </p>
+        <p> Energy Data Bank of Nigeria (EDBN) is a website that presents a comprehensive energy data bank serving as repository of information and statistics of energy production, consumption, reserves, and other relevant factors. It is intended to serves as a valuable resource for policymakers, researchers, analysts, investors, and the general public to understand and analyze the energy landscape of Nigeria. </p>
       
       <div className="progress-bars">
       <Progress className="p-bar" progress={'21MI'} title={'Project Done'} />
