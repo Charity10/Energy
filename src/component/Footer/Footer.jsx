@@ -8,7 +8,7 @@ import { FaGithub } from "react-icons/fa";
 const Footer = () => {
 
   return (
-    <div className='footer'>
+    <div id='footer'>
     <h1> Energy Data Bank Nigeria</h1>
     <ul>
       <li><a href="#">Home</a></li>

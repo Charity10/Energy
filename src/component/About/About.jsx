@@ -5,7 +5,7 @@ import Text from '../../Props/Text/Text'
 
 const About = () => {
   return (
-    <div className='about'>
+    <div id='about'>
       <div className="about-img">
         {/* <div className='img-shape'></div> */}
          <img className='abt-image' src={aboutImg} alt='abot-img' />

@@ -9,7 +9,7 @@ import Text from "../../Props/Text/Text"
 import OfferBox from '../../Props/OfferBox/OfferBox'
 const Services = () => {
   return (
-    <div className='services'>
+    <div id='services'>
       <Text className="prop-text" greenText= 'Our Services' blackText='What we offer'/>  
 
 
