@@ -3,6 +3,8 @@ import { FaInstagram } from "react-icons/fa6";
 import { BsTwitterX } from "react-icons/bs";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import { FaRegCopyright } from "react-icons/fa";
+
 
 
 
@@ -30,7 +32,7 @@ const Footer = () => {
     </a>
     </div>
      
-     <p>Copyright  2024 All rights reserved | built with love by Mercy Umoh</p>
+     <p>Copyright © 2024 All rights reserved | built with love by Mercy Umoh</p>
     </div>
   )
 }

@@ -6,7 +6,7 @@ import offer4 from '../../assets/images/Energy6.jpg'
 import offer5 from '../../assets/images/Energy7.jpg'
 import offer6 from '../../assets/images/petroleum.jpg'
 import Text from "../../Props/Text/Text"
-import OfferBox from '../../Props/OfferBox/offerBox'
+import OfferBox from '../../Props/OfferBox/OfferBox'
 const Services = () => {
   return (
     <div className='services'>
